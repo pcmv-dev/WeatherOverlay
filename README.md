@@ -1,5 +1,5 @@
 # WeatherOverlay
- BlueIris weather overlay using "Pirateweather" API
+A powershell script to download weather information from PirateWeather into a text file to use in BlueIris macro for weather overlay
 
 ## Setup
 1. Create your own API key by signing up at [PirateWeather](https://pirateweather.net/)
