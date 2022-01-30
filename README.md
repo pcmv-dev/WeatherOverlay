@@ -1,5 +1,5 @@
 # WeatherOverlay
-A powershell script to download weather information from PirateWeather into a text file to use in BlueIris macro for weather overlay
+A powershell script to download weather information from PirateWeather and output into a text file to use in BlueIris macro for weather overlay
 
 ## Setup
 1. Create your own API key by signing up at [PirateWeather](https://pirateweather.net/)
@@ -9,4 +9,3 @@ A powershell script to download weather information from PirateWeather into a te
 5. By default powershell scripts are blocked. This can be changed by inputing ```Set-ExecutionPolicy Unrestricted``` (Open Powershell as Admin)
 6. Check the script works by executing it in terminal ```.\pirateweather.ps1``` (A weather.txt should be created with current weather)
 7. Create a Scheduled Task using powershell with arguments ```-windowstyle hidden -file "C:\BlueIris\pirateweather.ps1"```
-   
