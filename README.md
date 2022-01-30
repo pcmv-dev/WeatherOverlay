@@ -9,4 +9,7 @@ A powershell script to download weather information from PirateWeather into a te
 5. By default powershell scripts are blocked. This can be changed by inputing ```Set-ExecutionPolicy Unrestricted``` (Open Powershell as Admin)
 6. Check the script works by executing it in terminal ```.\pirateweather.ps1``` (A weather.txt should be created with current weather)
 7. Create a Scheduled Task using powershell with arguments ```-windowstyle hidden -file "C:\BlueIris\pirateweather.ps1"```
-   
+
+![Task Schedule](screenshots/mmc_SyUaxMmoHs.png)
+![Task Schedule](screenshots/mmc_DskaqbhPpM.png)
+![Task Schedule](screenshots/mmc_WHAfSdLMy0.png)
